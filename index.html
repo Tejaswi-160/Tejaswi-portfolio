@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Tejaswi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Tejaswi Kannekanti</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profilepic.jpg" alt="Tejaswi profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Tejaswi Kannekanti</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Tejaswi Kannekanti resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/tejaswikannekanti/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Tejaswi-160'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <div class="icon-text-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+            </div>
+              <p class="position"> Web Developer Intern</p>
+             <p class="company">Infinity Connects Media</p>
+            </div>
+            <div class="details-container">
+              <div class="icon-text-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+            </div>
+              <p class="degree">Master of Engineering in Computer and Information Sciences</p>
+              <p class="degree">Bachelors of Technology in Computer Science Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              
+I am a Master of Engineering in Computer Science student at the University of Cincinnati, with a strong foundation in web development, machine learning, and data management. With experience as a Web Developer Intern and multiple academic projects, I have demonstrated expertise in creating seamless user experiences and optimizing performance. I am actively seeking an internship or full-time position to further apply and develop my technical skills.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="Skills">
+      <p class="section__text__p1"><b>Explore My</b></p>
+      <h1 class="title">SKILLS</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Web Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Angular</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Nodejs</h3>
+                
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DBMS</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SDLC</h3>
+              
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Problem Solving</h3>
+                
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
+                
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git/Github</h3>
+                
+                </div>
+              </article>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/foodimage.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Food ordering website</h2>
+            <p>
+              Developed a dynamic food ordering website using Angular, incorporating various components and services such as cart-page, food-page, and homepage. Implemented services like cart-service.ts and food-service.ts for efficient data management, and utilized routing for seamless navigation. This project highlights my skills in Angular development and creating interactive web applications.</p>
+            <!-- <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                Github
+              </button>
+           
+             
+              
+              
+            </div> -->
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/shopping image.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Shopping website</h2>
+            <p>Developed a responsive shopping website using HTML, CSS, and JavaScript, featuring pages like amazon.html, checkout.html, orders.html, and tracking.html. The site offers detailed product descriptions, secure checkout, order management, and real-time shipment tracking, showcasing my proficiency in front-end web development and creating user-centric platforms.</p>
+            <!-- <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            </div> -->
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Online-Banking-System img.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Online Banking System</h2>
+            <p>Led the design and development of a secure and feature-rich online banking system website, utilizing PHP for the back-end architecture and MySQL for efficient data storage and management. Crafted a responsive front-end interface with HTML, CSS, and JavaScript, enhancing user experience across various devices.</p>
+            <!-- <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+               <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github 
+            </button> 
+            
+            </div> -->
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ASL iage.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Conversion of Sign language to Text</h2>
+            <p>Developed an innovative ASL sign recognition system using computer vision and machine learning techniques, achieving 93% accuracy in mapping hand gestures to ASL signs. Utilized OpenCV (cv2), Cvzone, and the Mediapipe hand tracking model for precise hand detection, and implemented a pre-trained CNN model fine-tuned on an extensive ASL sign dataset. This project aimed to bridge the communication gap between ASL users and non-proficient individuals effectively.
+
+
+
+
+
+            </p>
+            <!-- <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+             
+            </div> -->
+          </div>
+          
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      /> -->
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">tejaswikannekanti0403@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/tejaswikannekanti/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Tejaswi. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
